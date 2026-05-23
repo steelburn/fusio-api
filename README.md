@@ -12,13 +12,20 @@
   Turn your business logic into scalable API products for humans and AI agents.
 </p>
 
+<p align="center">
+  <a href="https://docs.fusio-project.org/">📖 Documentation</a> •
+  <a href="https://www.youtube.com/watch?v=U7QYGKknw_Q">📺 Video Walkthrough (15m)</a> •
+  <a href="https://discord.gg/eMrMgwsc6e">💬 Discord Community</a>
+</p>
+
 ---
 
-Fusio is a self-hosted backend platform and API gateway that bridges the gap between your internal infrastructure and
-the outside world. Whether you are exposing legacy databases, orchestrating microservices, or building custom business
-logic, Fusio handles the heavy lifting. It transforms your services into a professional API product, complete with an
-automated developer portal, SDK generation, and monetization tools. With native MCP support, Fusio also acts as a bridge
-to the AI ecosystem, allowing you to turn your backend logic into tools for autonomous agents.
+Fusio is a self-hosted, open-source backend platform and API gateway written in PHP that bridges the gap between your
+internal infrastructure and the outside world. Whether you are exposing legacy databases, orchestrating microservices,
+or building custom business logic, Fusio handles the heavy lifting. It transforms your services into a professional API
+product, complete with an automated developer portal, SDK generation, and monetization tools. With native MCP support,
+Fusio also acts as a bridge to the AI ecosystem, allowing you to turn your backend logic into tools for autonomous
+agents.
 
 ## 🚀 Features
 
@@ -50,8 +57,6 @@ services:
       FUSIO_BACKEND_USER: "test"
       FUSIO_BACKEND_EMAIL: "demo@fusio-project.org"
       FUSIO_BACKEND_PW: "test1234"
-    links:
-      - mysql-fusio
     ports:
       - "8080:80"
 
@@ -254,14 +259,14 @@ To build and integrate applications with Fusio, you can use one of our officiall
 interaction with a Fusio instance. Alternatively, you can directly communicate with the REST API for full control and
 flexibility.
 
-| Language   | GitHub                                                  | Package                                                           | Example                                                      |
-|------------|---------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------|
-| C#         | [GitHub](https://github.com/apioo/fusio-sdk-csharp)     | [NuGet](https://www.nuget.org/packages/Fusio.SDK)                 | [Example](https://github.com/apioo/fusio-sample-csharp-cli)  |
-| Go         | [GitHub](https://github.com/apioo/fusio-sdk-go)         |                                                                   | [Example](https://github.com/apioo/fusio-sample-go-cli)      |
-| Java       | [GitHub](https://github.com/apioo/fusio-sdk-java)       | [Maven](https://mvnrepository.com/artifact/org.fusio-project/sdk) | [Example](https://github.com/apioo/fusio-sample-java-cli)    |
-| Javascript | [GitHub](https://github.com/apioo/fusio-sdk-javascript) | [NPM](https://www.npmjs.com/package/fusio-sdk)                    |                                                              |
-| PHP        | [GitHub](https://github.com/apioo/fusio-sdk-php)        | [Packagist](https://packagist.org/packages/fusio/sdk)             | [Example](https://github.com/apioo/fusio-sample-php-cli)     |
-| Python     | [GitHub](https://github.com/apioo/fusio-sdk-python)     | [PyPI](https://pypi.org/project/fusio-sdk/)                       | [Example](https://github.com/apioo/fusio-sample-python-cli)  |
+| Language       | GitHub                                                  | Package                                                            | Example                                                     |
+|----------------|---------------------------------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------|
+| __C#__         | [GitHub](https://github.com/apioo/fusio-sdk-csharp)     | [NuGet](https://www.nuget.org/packages/Fusio.SDK)                  | [Example](https://github.com/apioo/fusio-sample-csharp-cli) |
+| __Go__         | [GitHub](https://github.com/apioo/fusio-sdk-go)         | [go get](https://github.com/apioo/fusio-sdk-go)                    | [Example](https://github.com/apioo/fusio-sample-go-cli)     |
+| __Java__       | [GitHub](https://github.com/apioo/fusio-sdk-java)       | [Maven](https://mvnrepository.com/artifact/org.fusio-project/sdk)  | [Example](https://github.com/apioo/fusio-sample-java-cli)   |
+| __Javascript__ | [GitHub](https://github.com/apioo/fusio-sdk-javascript) | [NPM](https://www.npmjs.com/package/fusio-sdk)                     |                                                             |
+| __PHP__        | [GitHub](https://github.com/apioo/fusio-sdk-php)        | [Packagist](https://packagist.org/packages/fusio/sdk)              | [Example](https://github.com/apioo/fusio-sample-php-cli)    |
+| __Python__     | [GitHub](https://github.com/apioo/fusio-sdk-python)     | [PyPI](https://pypi.org/project/fusio-sdk/)                        | [Example](https://github.com/apioo/fusio-sample-python-cli) |
 
 ### 🖥️ Frontend
 
