@@ -1,5 +1,11 @@
 
-### 7.0.0
+### 7.1.0
+
+* Added consumer agent
+* Add option to mark agent as public
+* Added agent to deployment
+
+### 7.0.0 (2025-05-23)
 
 * Added a new taxonomy system #666
 * Added action and schema commit log and freeze production config 
