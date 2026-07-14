@@ -1,9 +1,15 @@
 
 ### 7.1.0
-
+  
 * Added consumer agent
 * Add option to mark agent as public
+* Add option to configure temperature and costs for an agent
+* Added basic agent message dialog to developer portal
 * Added agent to deployment
+* All SDKgen generators are now available without credentials
+* Improved TypeHub integration add option to create a tag and see the changelog
+* Freeze action config on specification tag
+* Consider Api-Version header and load fitting config on request
 
 ### 7.0.0 (2025-05-23)
 
